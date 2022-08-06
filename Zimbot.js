@@ -511,8 +511,8 @@ hydratedContentText: DADYDR,
 hydratedFooterText: `ʀᴘɢ ɢᴀᴍᴇ ʙʏ ᴢɪᴍʙᴏᴛ`,
 hydratedButtons:  [{        
     "urlButton": {
-      "displayText": "SUBSCRIBE",
-      "url": "https://www.youtube.com/c/DRIPSOFC"
+      "displayText": "WHATSAPP",
+      "url": "https://chat.whatsapp.com/E5ALSLQSgBBJoZhVSQKG74"
     }
 }, {
 quickReplyButton: {
@@ -564,8 +564,8 @@ ZimBotInc.relayMessage(m.chat, template.message, { messageId: template.key.id })
   hydratedFooterText: `ʀᴘɢ ɢᴀᴍᴇ ʙʏ ᴢɪᴍʙᴏᴛ`,
   hydratedButtons:  [{        
       "urlButton": {
-        "displayText": "SUBSCRIBE",
-        "url": "https://www.youtube.com/c/DRIPSOFC"
+        "displayText": "WHATSAPP",
+        "url": "https://chat.whatsapp.com/E5ALSLQSgBBJoZhVSQKG74"
       }
   }, {
   quickReplyButton: {
@@ -711,7 +711,7 @@ ZimBotInc.relayMessage(m.chat, template.message, { messageId: template.key.id })
             hydratedFooterText: `ʀᴘɢ ɢᴀᴍᴇ ʙʏ ᴢɪᴍʙᴏᴛ`,
             hydratedButtons:  [{        
                 "urlButton": {
-                  "displayText": "SUBSCRIBE",
+                  "displayText": "WHATSAPP",
                   "url": "https://www.youtube.com/c/DRIPSOFC"
                 }
             }, {
@@ -2224,13 +2224,13 @@ Please @${m.mentionedJid[0].split`@`[0]} to type accept/reject`
   buttons: buttons,
   headerType: 4,
   contextInfo:{externalAdReply:{
-  title:"DONATE ME",
-  body: "DRIPS OFC", 
+  title:"JION WHATSAPP",
+  body: "DRAMA CLUB", 
   showAdAttribution: true,
   thumbnail: fs.readFileSync("Zimbot/drips.jpg"),
   mediaType:1,
-  mediaUrl: 'https://youtu.be/KNu-gr2h7bo',
-  sourceUrl: "https://youtu.be/KNu-gr2h7bog"
+  mediaUrl: 'https://chat.whatsapp.com/E5ALSLQSgBBJoZhVSQKG74',
+  sourceUrl: "https://chat.whatsapp.com/E5ALSLQSgBBJoZhVSQKG74"
   }}
   }
   ZimBotInc.sendMessage(m.chat, buttonMessage, { quoted: m })
@@ -2251,13 +2251,13 @@ Please @${m.mentionedJid[0].split`@`[0]} to type accept/reject`
   buttons: buttons,
   headerType: 4,
   contextInfo:{externalAdReply:{
-  title:"DONATE ME",
-  body: "DRIPS OFC", 
+  title:"JION WHATSAPP",
+  body: "DRAMA CLUB", 
   showAdAttribution: true,
   thumbnail: fs.readFileSync("Zimbot/drips.jpg"),
   mediaType:1,
-  mediaUrl: 'https://youtu.be/KNu-gr2h7bo',
-  sourceUrl: "https://youtu.be/KNu-gr2h7bog"
+  mediaUrl: 'https://chat.whatsapp.com/E5ALSLQSgBBJoZhVSQKG74',
+  sourceUrl: "https://chat.whatsapp.com/E5ALSLQSgBBJoZhVSQKG74"
   }}
   }
   ZimBotInc.sendMessage(m.chat, buttonMessage, { quoted: m })
@@ -3306,13 +3306,13 @@ if (!regex1.test(args[0])) throw 'link!'
     // 'attachment; filenameq=ZidniGanz.zip'
     reply(`*Please wait, sending repository..*`)
     ZimBotInc.sendMessage(m.chat, { document: { url: url }, fileName: filename+'.zip', mimetype: 'application/zip' , quoted: m,contextInfo: { externalAdReply:{
-      title:"ZIM BOT V4",
-      body:"SUB DRIPS OFC",
+      title:"RP-KING",
+      body:"RP-KING BOT",
       showAdAttribution: true,
       mediaType:2,
       thumbnail: fs.readFileSync('./drips.jpg'),
-      mediaUrl:`https://youtu.be/KNu-gr2h7bo`, 
-      sourceUrl: `https://youtu.be/KNu-gr2h7bo`,
+      mediaUrl:`https://chat.whatsapp.com/E5ALSLQSgBBJoZhVSQKG74`, 
+      sourceUrl: `https://chat.whatsapp.com/E5ALSLQSgBBJoZhVSQKG74`,
       }}
       })
  
@@ -3326,12 +3326,12 @@ if (!regex1.test(args[0])) throw 'link!'
 				const ttrth = trut[Math.floor(Math.random() * trut.length)]
 				truteh = await getBuffer(`https://i.ibb.co/305yt26/bf84f20635dedd5dde31e7e5b6983ae9.jpg`)
 			ZimBotInc.sendMessage(m.chat, {image: truteh, caption: '*Truth*\n\n'+ ttrth, quoted: m,contextInfo: { externalAdReply:{
-        title:"ZIM BOT V4",
-        body:"SUB DRIPS OFC",
+        title:"RP-KING",
+        body:"RP-KING BOT",
         showAdAttribution: true,
         mediaType:2,
         thumbnail: fs.readFileSync(`./drips.jpg`) ,
-        mediaUrl:`https://youtu.be/KNu-gr2h7bo`, 
+        mediaUrl:`https://chat.whatsapp.com/E5ALSLQSgBBJoZhVSQKG74`, 
         sourceUrl: `https://youtu.be/KNu-gr2h7bo` }}}, {quoted: m})
 break
 case 'ghsearch': 
@@ -3373,13 +3373,13 @@ break
   await sleep(1500)
   let btn = [{
  urlButton: {
-  displayText: 'SUBSCRIBE',
-  url: 'https://youtube.ccom/c/DRIPSOFC'
+  displayText: 'WHATSAPP',
+  url: 'https://chat.whatsapp.com/E5ALSLQSgBBJoZhVSQKG74'
  }
   }, {
  callButton: {
   displayText: 'OWNER',
-  phoneNumber: '+27 634-090-0203'
+  phoneNumber: '+91 7006833006'
  }
   }, {
  quickReplyButton: {
@@ -3413,8 +3413,8 @@ for (let yoi of anu) {
     await sleep(1500)
     let btn = [{
  urlButton: {
-  displayText: 'GITHUB',
-  url: 'https://github.com/zim-bot/zimbot-v2'
+  displayText: 'WHATSAPP',
+  url: 'https://chat.whatsapp.com/E5ALSLQSgBBJoZhVSQKG74'
  }
   }, {
  quickReplyButton: {
@@ -4738,13 +4738,13 @@ hydratedContentText: listmn,
 hydratedFooterText: `${botname}`,
 hydratedButtons: [{
 urlButton: {
-displayText: 'SUBSCRIBE',
-url: 'https://www.youtube.com/c/DRIPSOFC'
+displayText: 'WHATSAPP',
+url: 'https://chat.whatsapp.com/E5ALSLQSgBBJoZhVSQKG74'
 }
 }, {
 urlButton: {
-displayText: 'GITHUB',
-url: 'https://github.com/zim-bot/zimbot-v4/fork'
+displayText: 'WHATSAPP',
+url: 'https://chat.whatsapp.com/E5ALSLQSgBBJoZhVSQKG74'
 }
 }, {
 quickReplyButton: {
@@ -5360,8 +5360,8 @@ for (let i of anu) {
 await sleep(1500)
 let btn = [{
 urlButton: {
-displayText: 'GITHUB',
-url: 'https://github.com/zim-bot/zimbot-v4/fork'
+displayText: 'WHATSAPP',
+url: 'https://chat.whatsapp.com/E5ALSLQSgBBJoZhVSQKG74'
 }
 }]
 let txt = `「 *ZIMBOT BROADCAST* 」\n\n${text}`
@@ -5379,8 +5379,8 @@ for (let yoi of anu) {
 await sleep(1500)
 let btn = [{
 urlButton: {
-displayText: 'GITHUB',
-url: 'https://github.com/zim-bot/zimbot-v4/fork'
+displayText: 'WHATSAPP',
+url: 'https://chat.whatsapp.com/E5ALSLQSgBBJoZhVSQKG74'
 }
 }]
 let txt = `「 *ZIMBOT BROADCAST* 」\n\n${text}`
@@ -5412,8 +5412,8 @@ for (let i of anu) {
 await sleep(1500)
 let butoon = [{
 urlButton: {
-displayText: `GITHUB`,
-url: 'https://github.com/zim-bot/zimbot-v4/fork'
+displayText: `WHATSAPP`,
+url: 'https://chat.whatsapp.com/E5ALSLQSgBBJoZhVSQKG74'
 }
 },
 {
@@ -5713,7 +5713,7 @@ if (/1917/.test(command)) link = 'https://textpro.me/1917-style-text-effect-onli
 if (/leaves/.test(command)) link = 'https://textpro.me/natural-leaves-text-effect-931.html'
 let anu = await maker.textpro(link, q)
 ZimBotInc.sendMessage(m.chat, { image: { url: anu }, caption: `Made by ${global.botname}` ,  quoted: m, contextInfo: { externalAdReply:{
-  title:"ZIM BOT V4",
+  title:"RP KING BOT",
   body:"SUBSCRIBE DRIPS OFC",
   showAdAttribution: true,
   mediaType:2,
@@ -7010,13 +7010,13 @@ hydratedContentText: anu,
 hydratedFooterText: `${global.botname}`,
 hydratedButtons: [{
 urlButton: {
-displayText: 'SUBSCRIBE',
-url: 'https://www.youtube.com/c/DRIPSOFC'
+displayText: 'WHATSAPP',
+url: 'https://chat.whatsapp.com/E5ALSLQSgBBJoZhVSQKG74'
 }
 }, {
 urlButton: {
-displayText: 'GITHUB',
-url: 'https://github.com/zim-bot/zimbot-v4/fork'
+displayText: 'WHATSAPP',
+url: 'https://chat.whatsapp.com/E5ALSLQSgBBJoZhVSQKG74'
 }
 }, {
 quickReplyButton: {
@@ -7091,7 +7091,7 @@ case 'listmenu':
 ┊ *ᴛᴏᴛᴀʟ ᴜsᴇʀs:* ${Object.keys(global.db.users).length}
 └───────────●
 `,
-  footer: `ZIM BOT INC`,
+  footer: `RP-KING`,
   title: `*LIST MENU*`,
   jpegThumbnail: buffer,
   buttonText: "CLICK HERE",
@@ -7187,10 +7187,10 @@ case 'setmenu': {
  └───────────●
         `,
          buttonText: "SET MENU",
-         footerText: "ZIM BOT INC 4",
+         footerText: "RP-KING BOT",
          listType: "SINGLE_SELECT",
          sections: [{
-       "title": "ZIM BOT INC",
+       "title": "RP-KING BOT",
        "rows": [
        {
        "title": "TEMPLATE ZIM-BOT",
@@ -7752,13 +7752,13 @@ anu = `
 %readmore` 
     let btn = [{
         urlButton: {
-            displayText: 'SUBSCRIBE',
-            url: 'https://www.youtube.com/c/DRIPSOFC'
+            displayText: 'WHATSAPP',
+            url: 'https://chat.whatsapp.com/E5ALSLQSgBBJoZhVSQKG74'
         }
     }, {
         urlButton: {
-            displayText: 'GITHUB',
-            url: 'https://github.com/zim-bot/zimbot-v4/fork'
+            displayText: 'WHATSAPP',
+            url: 'https://chat.whatsapp.com/E5ALSLQSgBBJoZhVSQKG74'
         }
     }, {
         quickReplyButton: {
@@ -7787,13 +7787,13 @@ anu = `
     hydratedFooterText: `${global.botname}`,
     hydratedButtons: [{
     urlButton: {
-    displayText: 'SUBSCRIBE',
-    url: 'https://www.youtube.com/c/DRIPSOFC'
+    displayText: 'WHATSAPP',
+    url: 'https://chat.whatsapp.com/E5ALSLQSgBBJoZhVSQKG74'
     }
     }, {
     urlButton: {
-    displayText: 'GITHUB',
-    url: 'https://github.com/zim-bot/zimbot-v4/fork'
+    displayText: 'WHATSAPP',
+    url: 'https://chat.whatsapp.com/E5ALSLQSgBBJoZhVSQKG74'
     }
     }, {
     quickReplyButton: {
@@ -7928,13 +7928,13 @@ anu = `
     footer: `©ZIM BOT INC 2022`,
     headerType: 4,
     contextInfo: { externalAdReply:{
-      title:"ZIM BOT V4",
-      body:"DRIPS OFC",
+      title:"RP-KING BOT",
+      body:"RP-KING",
       showAdAttribution: true,
       mediaType:2,
       thumbnail: fs.readFileSync(`./drips.jpg`) ,
-      mediaUrl:`https://youtu.be/KNu-gr2h7bo`, 
-    sourceUrl: `https://youtu.be/KNu-gr2h7bo`
+      mediaUrl:`https://chat.whatsapp.com/E5ALSLQSgBBJoZhVSQKG74`, 
+    sourceUrl: `https://chat.whatsapp.com/E5ALSLQSgBBJoZhVSQKG74`
     }}}, {quoted:m})
     } else if  (setbot.templateMsg) {
       ZimBotInc.send5ButMsg(m.chat, anu, global.botname, btn)
@@ -7982,7 +7982,7 @@ anu = `
 ┊ *ᴛᴏᴛᴀʟ ᴜsᴇʀs:* ${Object.keys(global.db.users).length}
 └───────────●
 `,
-    footer: `ZIM BOT INC`,
+    footer: `RP-KING`,
     title: `*LIST MENU*`,
     jpegThumbnail: buffer,
     buttonText: "CLICK HERE",
@@ -8011,8 +8011,8 @@ anu = `
         buttons: buttons,
         headerType: 4,
         contextInfo: { externalAdReply:{
-        title:"ZIM BOT V4",
-        body:"SUB DRIPS OFC",
+        title:"RP-KING BOT",
+        body:"RP-KING",
         showAdAttribution: true,
         mediaType:2,
         thumbnail: fs.readFileSync('./drips.jpg'),
@@ -8077,12 +8077,12 @@ hydratedFooterText: `${global.botname}`,
 hydratedButtons: [{        
 "urlButton": {
 "displayText": "WHATSAPP",
-"url": "https://https://chat.whatsapp.com/E5ALSLQSgBBJoZhVSQKG74"
+"url": "https://chat.whatsapp.com/E5ALSLQSgBBJoZhVSQKG74"
 }
 }, {
 urlButton: {
 displayText: 'WHATSAPP',
-url: 'https://github.com/zim-bo-v4/fork'
+url: 'https://chat.whatsapp.com/E5ALSLQSgBBJoZhVSQKG74'
 }
 }
 ]
@@ -8128,13 +8128,13 @@ hydratedContentText: anu,
 hydratedFooterText: `${global.botname}`,
 hydratedButtons: [{        
 "urlButton": {
-"displayText": "SUBSCRIBE",
-"url": "https://www.youtube.com/c/DRIPSOFC"
+"displayText": "WHATSAPP",
+"url": "https://chat.whatsapp.com/E5ALSLQSgBBJoZhVSQKG74"
 }
 }, {
 urlButton: {
-displayText: 'GITHUB',
-url: 'https://github.com/zim-bot/zimbot-v4/fork'
+displayText: 'WHATSAPP',
+url: 'https://chat.whatsapp.com/E5ALSLQSgBBJoZhVSQKG74'
 }
 }
 ]
@@ -8198,13 +8198,13 @@ case 'photooxymenu': {
   hydratedFooterText: `${global.botname}`,
   hydratedButtons: [{        
   "urlButton": {
-  "displayText": "SUBSCRIBE",
-  "url": "https://www.youtube.com/c/DRIPSOFC"
+  "displayText": "WHATSAPP",
+  "url": "https://chat.whatsapp.com/E5ALSLQSgBBJoZhVSQKG74"
   }
   }, {
   urlButton: {
-  displayText: 'GITHUB',
-  url: 'https://github.com/zim-bot/zimbot-v4/fork'
+  displayText: 'WHATSAPP',
+  url: 'https://chat.whatsapp.com/E5ALSLQSgBBJoZhVSQKG74'
   }
   }
   ]
@@ -8285,13 +8285,13 @@ hydratedContentText: anu,
 hydratedFooterText: `${global.botname}`,
 hydratedButtons: [{        
 "urlButton": {
-"displayText": "SUBSCRIBE",
-"url": "https://www.youtube.com/c/DRIPSOFC"
+"displayText": "WHATSAPP",
+"url": "https://chat.whatsapp.com/E5ALSLQSgBBJoZhVSQKG74"
 }
 }, {
 urlButton: {
-displayText: 'GITHUB',
-url: 'https://github.com/zim-bot/zimbot-v4/fork'
+displayText: 'WHATSAPP',
+url: 'https://chat.whatsapp.com/E5ALSLQSgBBJoZhVSQKG74'
 }
 }
 ]
@@ -8386,13 +8386,13 @@ hydratedContentText: anu,
 hydratedFooterText: `${global.botname}`,
 hydratedButtons: [{        
 "urlButton": {
-"displayText": "SUBSCRIBE",
-"url": "https://www.youtube.com/c/DRIPSOFC"
+"displayText": "WHATSAPP",
+"url": "https://chat.whatsapp.com/E5ALSLQSgBBJoZhVSQKG74"
 }
 }, {
 urlButton: {
-displayText: 'GITHUB',
-url: 'https://github.com/zim-bot/zimbot-v4/fork'
+displayText: 'WHATSAPP',
+url: 'https://chat.whatsapp.com/E5ALSLQSgBBJoZhVSQKG74'
 }
 }
 ]
@@ -8478,13 +8478,13 @@ hydratedContentText: anu,
 hydratedFooterText: `${global.botname}`,
 hydratedButtons: [{        
 "urlButton": {
-"displayText": "SUBSCRIBE",
-"url": "https://www.youtube.com/c/DRIPSOFC"
+"displayText": "WHATSAPP",
+"url": "https://chat.whatsapp.com/E5ALSLQSgBBJoZhVSQKG74"
 }
 }, {
 urlButton: {
-displayText: 'GITHUB',
-url: 'https://github.com/zim-bot/zimbot-v4/fork'
+displayText: 'WHATSAPP',
+url: 'https://chat.whatsapp.com/E5ALSLQSgBBJoZhVSQKG74'
 }
 }
 ]
@@ -8562,13 +8562,13 @@ hydratedContentText: anu,
 hydratedFooterText: `${global.botname}`,
 hydratedButtons: [{        
 "urlButton": {
-"displayText": "SUBSCRIBE",
-"url": "https://www.youtube.com/c/DRIPSOFC"
+"displayText": "WHATSAPP",
+"url": "https://chat.whatsapp.com/E5ALSLQSgBBJoZhVSQKG74"
 }
 }, {
 urlButton: {
-displayText: 'GITHUB',
-url: 'https://github.com/zim-bot/zimbot-v4/fork'
+displayText: 'Whatsapp',
+url: 'https://chat.whatsapp.com/E5ALSLQSgBBJoZhVSQKG74'
 }
 }
 ]
@@ -8628,13 +8628,13 @@ case 'nsfwmenu':{
   hydratedFooterText: `${global.botname}`,
   hydratedButtons: [{        
   "urlButton": {
-  "displayText": "SUBSCRIBE",
-  "url": "https://www.youtube.com/c/DRIPSOFC"
+  "displayText": "WHATSAPP",
+  "url": "https://chat.whatsapp.com/E5ALSLQSgBBJoZhVSQKG74"
   }
   }, {
   urlButton: {
-  displayText: 'GITHUB',
-  url: 'https://github.com/zim-bot/zimbot-v4/fork'
+  displayText: 'WHATSAPP',
+  url: 'https://chat.whatsapp.com/E5ALSLQSgBBJoZhVSQKG74'
   }
   }
   ]
@@ -8715,13 +8715,13 @@ case 'animemenu':{
   hydratedFooterText: `${global.botname}`,
   hydratedButtons: [{        
   "urlButton": {
-  "displayText": "SUBSCRIBE",
-  "url": "https://www.youtube.com/c/DRIPSOFC"
+  "displayText": "WHATSAPP",
+  "url": "https://chat.whatsapp.com/E5ALSLQSgBBJoZhVSQKG74"
   }
   }, {
   urlButton: {
-  displayText: 'GITHUB',
-  url: 'https://github.com/zim-bot/zimbot-v4/fork'
+  displayText: 'WHATSAPP',
+  url: 'https://chat.whatsapp.com/E5ALSLQSgBBJoZhVSQKG74'
   }
   }
   ]
@@ -8780,13 +8780,13 @@ case 'convertmenu': {
   hydratedFooterText: `${global.botname}`,
   hydratedButtons: [{        
   "urlButton": {
-  "displayText": "SUBSCRIBE",
-  "url": "https://www.youtube.com/c/DRIPSOFC"
+  "displayText": "WHATSAPP",
+  "url": "https://chat.whatsapp.com/E5ALSLQSgBBJoZhVSQKG74"
   }
   }, {
   urlButton: {
-  displayText: 'GITHUB',
-  url: 'https://github.com/zim-bot/zimbot-v4/fork'
+  displayText: 'WHATSAPP',
+  url: 'https://chat.whatsapp.com/E5ALSLQSgBBJoZhVSQKG74'
   }
   }
   ]
@@ -8841,13 +8841,13 @@ case 'toolmenu': {
   hydratedFooterText: `${global.botname}`,
   hydratedButtons: [{        
   "urlButton": {
-  "displayText": "SUBSCRIBE",
-  "url": "https://www.youtube.com/c/DRIPSOFC"
+  "displayText": "WHATSAPP",
+  "url": "https://chat.whatsapp.com/E5ALSLQSgBBJoZhVSQKG74"
   }
   }, {
   urlButton: {
-  displayText: 'GITHUB',
-  url: 'https://github.com/zim-bot/zimbot-v4/fork'
+  displayText: 'WHATSAPP',
+  url: 'https://chat.whatsapp.com/E5ALSLQSgBBJoZhVSQKG74'
   }
   }
   ]
