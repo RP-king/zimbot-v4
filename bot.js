@@ -7,8 +7,8 @@
 //▮
 //▮REPORT ABUSE OF THIS SOFTWARE EMAIL US
 //▮reinhardtuna@mail.uk
-//▮WHATSAPP US : +44 7441 437150
-//▮YOUTUBE CHANNELL: https://youtube.com/c/DRIPSOFC
+//▮WHATSAPP US : +91 7006833006
+//▮whatsapp group : https://chat.whatsapp.com/E5ALSLQSgBBJoZhVSQKG74
 //▮
 //╰▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀
 //
@@ -37,13 +37,13 @@ global.owner = ['917006833006',''] //owner number +917006833006
 global.wame = ['917006833006'] 
 global.pemilik = ['917006833006'] //owner number +917006833006
 global.premium = ['917006833006'] //premium number +917006833006
-global.pengguna = 'Drips' //username
-global.footer = 'ZIM BOT INC'
-global.botnma = 'ZIM BOT INC' //bot name
-global.botname = 'ZIM BOT V4'
-global.ownernma = 'Drips' //owner name
-global.packname = 'Drips' //sticker package name
-global.author = 'By Drips Memes' //sticker author name
+global.pengguna = 'RP-KING💜' //username
+global.footer = 'RP-KING💜'
+global.botnma = 'RP-KING💜' //bot name
+global.botname = 'RP-KING💜'
+global.ownernma = 'RP-KING💜' //owner name
+global.packname = '💜RP-KING' //sticker package name
+global.author = 'By RP-KING Memes' //sticker author name
 global.sessionName = 'session' //session name
 global.prefa = ['#','!','/',''] //prefix
 global.sp = '🔵' //sp
@@ -73,14 +73,14 @@ global.f6 = 'application/vnd.android.package-archive'
 global.flaming = 'https://flamingtext.com/net-fu/proxy_form.cgi?&imageoutput=true&script=amped-logo&doScale=true&scaleWidth=800&scaleHeight=500&text='
 global.mess = {
     success: 'Takaenda Done!',
-    admin: '*This feature is only for admin!*',
-    botAdmin: '*zim bot  must be admin first!*',
-    owner: '*this feature is only for zimbot owner*',
+    admin: '*This feature is only for RP-KING and admin!*',
+    botAdmin: '*RP-KING  must be admin first!*',
+    owner: '*this feature is only for RP-KING bot owner*',
     group: '*Feature is only for groups!*',
     grouponly: '*Group Mode Only*',
     private: 'Features Used Only For Private Chat!',
     bot: 'This feature in only for the bot number',
-    wait: '*whoa wait a moment zim bot proccessing*',
+    wait: '*whoa wait a moment RP-KING is proccessing*',
     endLimit: '*Your daily limit has expired the limit will be reseted every 12 hours*',
     noPetualang: '*you are not in rpg database type #joinrpg* _ur name_'
 }
