@@ -72,7 +72,7 @@ global.f5 = 'application/pdf'
 global.f6 = 'application/vnd.android.package-archive'
 global.flaming = 'https://flamingtext.com/net-fu/proxy_form.cgi?&imageoutput=true&script=amped-logo&doScale=true&scaleWidth=800&scaleHeight=500&text='
 global.mess = {
-    success: 'Takaenda Done!',
+    success: '☑️Done!',
     admin: '*This feature is only for RP-KING and admin!*',
     botAdmin: '*RP-KING  must be admin first!*',
     owner: '*this feature is only for RP-KING bot owner*',
@@ -80,9 +80,9 @@ global.mess = {
     grouponly: '*Group Mode Only*',
     private: 'Features Used Only For Private Chat!',
     bot: 'This feature in only for the bot number',
-    wait: '*whoa wait a moment RP-KING is proccessing*',
+    wait: '*wait a moment RP-KING is proccessing*',
     endLimit: '*Your daily limit has expired the limit will be reseted every 12 hours*',
-    noPetualang: '*you are not in rpg database type #joinrpg* _ur name_'
+    noPetualang: '*you are not in RP-KING's rpg database type #joinrpg* _ur name_'
 }
 global.limitawal = {
     premium: "Infinity", //premium user limit
@@ -96,9 +96,9 @@ emeraldawal: 5,
 umpanawal: 5,
 potionawal: 1
 }
-global.thumb = fs.readFileSync('./Zimbot/drips.jpg')
+global.thumb = { url: 'https://chat.whatsapp.com/E5ALSLQSgBBJoZhVSQKG74' }
 global.visoka = { url: 'https://i.imgur.com/LbmTdhf.mp4' }
-global.vid = { url: 'https://i.imgur.com/LbmTdhf.mp4' }
+global.img = { url: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTghQcIq7rGu0PCturWKAYpBK525LKB-ZLJcw&usqp=CAU' }
 
 //—————「 Set Random Image Menu 」—————//
 
