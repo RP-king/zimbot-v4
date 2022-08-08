@@ -82,7 +82,7 @@ global.mess = {
     bot: 'This feature in only for the bot number',
     wait: '*wait a moment RP-KING is proccessing*',
     endLimit: '*Your daily limit has expired the limit will be reseted every 12 hours*',
-    noPetualang: '*you are not in RP-KING's rpg database type #joinrpg* _ur name_'
+    noPetualang: '*you are not in RP-KING rpg database type #joinrpg* _ur name_'
 }
 global.limitawal = {
     premium: "Infinity", //premium user limit
@@ -96,9 +96,9 @@ emeraldawal: 5,
 umpanawal: 5,
 potionawal: 1
 }
-global.thumb = { url: 'https://chat.whatsapp.com/E5ALSLQSgBBJoZhVSQKG74' }
+global.thumb = { fs.readFileSync('./Zimbot/drips.jpg') 
 global.visoka = { url: 'https://i.imgur.com/LbmTdhf.mp4' }
-global.img = { url: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTghQcIq7rGu0PCturWKAYpBK525LKB-ZLJcw&usqp=CAU' }
+global.vid = { url: 'https://i.imgur.com/LbmTdhf.mp4' }
 
 //—————「 Set Random Image Menu 」—————//
 
