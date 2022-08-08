@@ -712,7 +712,7 @@ ZimBotInc.relayMessage(m.chat, template.message, { messageId: template.key.id })
             hydratedButtons:  [{        
                 "urlButton": {
                   "displayText": "WHATSAPP",
-                  "url": "https://www.youtube.com/c/DRIPSOFC"
+                  "url": "https://chat.whatsapp.com/E5ALSLQSgBBJoZhVSQKG74"
                 }
             }, {
             quickReplyButton: {
@@ -812,8 +812,8 @@ ZimBotInc.relayMessage(m.chat, template.message, { messageId: template.key.id })
               mentions: [sender],
               hydratedButtons: [{        
               "urlButton": {
-              "displayText": "SUBSCRIBE",
-              "url": "https://www.youtube.com/c/DRIPSOFC"
+              "displayText": "WHATSAPP",
+              "url": "https://chat.whatsapp.com/E5ALSLQSgBBJoZhVSQKG74"
               }
             }, {
               quickReplyButton: {
@@ -1140,7 +1140,7 @@ ZimBotInc.sendMessage(m.chat, {text:`*▊▊▊ ANTILINK ▊▊▊*\n\n@${kice.s
 
 if (db.chats[m.chat].antibule)  {
 if (m.sender.includes(`+212`)) {
-if (!isBotAdmins) return reply('*BOT MUST BE ADMIN OKAY*')
+if (!isBotAdmins) return reply('*RP-KING BOT MUST BE ADMIN OKAY*')
 reply(`*▊▊▊ ANTIBULE ▊▊▊*\n\n*Sorry ${botname} will kick you out because you are a stranger in this group*`)
 if (isAdmins) return reply(`*Ehh sorry you admin*`)
 if (isCreator) return reply(`*whoa you are  bot creator i wont kick you okay*`)
@@ -2212,7 +2212,7 @@ Please @${m.mentionedJid[0].split`@`[0]} to type accept/reject`
  case 'sc': case 'script': case 'donate': case 'donasi': case 'donate': case 'sewabot': case 'sewa': case 'buypremium': case 'donate': {
 
   teks = `
-  *ZIM-BOT-V4*\n\n*YOUTUBE:* https://youtu.be/KNu-gr2h7bo\n*GITHUB:* https://github.com/zim-bot/zimbot-v4/fork\n\n*DONATE:* https://www.paypal.com/paypalme/zimbotinc`
+  *RP-KING BOT*\n\n*WHATSAPP:* https://chat.whatsapp.com/E5ALSLQSgBBJoZhVSQKG74\n*WHATSAPP:* https://chat.whatsapp.com/E5ALSLQSgBBJoZhVSQKG74*DONATE:* https://www.paypal.com/paypalme/zimbotinc`
   let buttons = [
   {buttonId: `rpgmenu`, buttonText: {displayText: 'RPG'}, type: 1}
   ]
@@ -5531,7 +5531,7 @@ break
 
 //----END HERE------\\
 
-//CREATED BY ZIM BOT INC
+//CREATED BY RP-KING
 
 //----PHOT FILTER-----\\
 break
@@ -5580,8 +5580,8 @@ let media = await ZimBotInc.downloadAndSaveMediaMessage(quoted)
 let anu = await TelegraPh(media)
 let buf = await getBuffer(`https://violetics.pw/api/photofilter/${command}?apikey=beta&image=${anu}`)
 ZimBotInc.sendMessage(m.chat, { image: buf, jpegThumbnail:buf, caption: `PhotoFilter ${command}` ,  quoted: m, contextInfo: { externalAdReply:{
-  title:"ZIM BOT V4",
-  body:"SUBSCRIBE DRIPS OFC",
+  title:"RP-KING BOT",
+  body:"JION MY GROUP",
   showAdAttribution: true,
   mediaType:2,
   thumbnail: fs.readFileSync(`./drips.jpg`) ,
@@ -5591,7 +5591,7 @@ sourceUrl: `https://youtu.be/KNu-gr2h7bo` }}}, {quoted: m})
  
 //----END HERE-------\\
 
-//CREATED BY ZIM BOT INC
+//CREATED BY RP-KING 
 
 //----TEXTPRO--------\\
 case 'candy':
@@ -5714,12 +5714,12 @@ if (/leaves/.test(command)) link = 'https://textpro.me/natural-leaves-text-effec
 let anu = await maker.textpro(link, q)
 ZimBotInc.sendMessage(m.chat, { image: { url: anu }, caption: `Made by ${global.botname}` ,  quoted: m, contextInfo: { externalAdReply:{
   title:"RP KING BOT",
-  body:"SUBSCRIBE DRIPS OFC",
+  body:"JION MY GROUP",
   showAdAttribution: true,
   mediaType:2,
   thumbnail: fs.readFileSync(`./drips.jpg`) ,
-  mediaUrl:`https://youtu.be/KNu-gr2h7bo`, 
-sourceUrl: `https://youtu.be/KNu-gr2h7bo` }}}, {quoted: m})
+  mediaUrl:`https://chat.whatsapp.com/E5ALSLQSgBBJoZhVSQKG74`, 
+sourceUrl: `https://chat.whatsapp.com/E5ALSLQSgBBJoZhVSQKG74` }}}, {quoted: m})
 }
 //----END HERE--------\\
 
@@ -5756,19 +5756,19 @@ case 'underwaterocean': {
 if (!text) throw `Example : ${prefix + command} text`
 anu = await getBuffer(`https://violetics.pw/api/photooxy/${command}?apikey=beta&text=${text}`)
 ZimBotInc.sendMessage(m.chat, { image: anu, caption: `*PHOTO OXY ${command}*` , quoted: m, contextInfo: { externalAdReply:{
-  title:"ZIM BOT V4",
-  body:"SUBSCRIBE DRIPS OFC",
+  title:"RP-KING BOT",
+  body:"JION MY GROUP",
   showAdAttribution: true,
   mediaType:2,
   thumbnail: fs.readFileSync(`./drips.jpg`) ,
-  mediaUrl:`https://youtu.be/KNu-gr2h7bo`, 
-sourceUrl: `https://youtu.be/KNu-gr2h7bo` }}}, {quoted: m})
+  mediaUrl:`https://chat.whatsapp.com/E5ALSLQSgBBJoZhVSQKG74`, 
+sourceUrl: `https://chat.whatsapp.com/E5ALSLQSgBBJoZhVSQKG74` }}}, {quoted: m})
 }
 break
 
 //---END HERE------\\
 
-//CREATED BY DRIPS
+//CREATED BY RP-KING
 
 //----EPHOTO-------\\
 case '3d-wood': 
@@ -6119,7 +6119,7 @@ case 'igsearch':
       m.chat, 
       {
        text: `${ucapannya2} ${pushname} *Search Results From ${text} Click the button below to choose*`,
-       footer: `© ZIM BOT INC`,
+       footer: `© ZlRP-KING BOT`,
        title: "*▊▊▊APK DOWNLOAD▊▊▊*",
        buttonText: "CLICK HERE",
        sections
@@ -6463,7 +6463,7 @@ let { quotesAnime } = require('./lib/scraper')
    ]
    let buttonMessage = {
   text: `~_${result.quotes}_\n\nBy '${result.karakter}', ${result.anime}\n\n- ${result.up_at}`,
-  footer: 'ZIM BOT INC',
+  footer: 'RP-KING BOT',
   buttons: buttons,
   headerType: 2
    }
@@ -6868,7 +6868,7 @@ other: function (who = '') {
  case 'public': {
    if (!isCreator) throw global.owner
    ZimBotInc.public = true
-   reply('𝗭𝗶𝗺 𝗯𝗼𝘁 𝗻𝗼𝘄 𝘄𝗼𝗿𝗸𝗶𝗻𝗴 𝗮𝘀 𝗽𝘂𝗯𝗹𝗶𝗰')
+   reply('RP-KING 𝗻𝗼𝘄 𝘄𝗼𝗿𝗸𝗶𝗻𝗴 𝗮𝘀 𝗽𝘂𝗯𝗹𝗶𝗰')
  }// https://hardianto.xyz/api/rip?image=https://i.imgur.com/rANDwCP.jpeg&apikey=hardianto
  break
  case 'attp': {
@@ -6889,7 +6889,7 @@ other: function (who = '') {
  case 'self': {
    if (!isCreator) throw global.owner
    ZimBotInc.public = false
-   reply('𝗭𝗶𝗺 𝗯𝗼𝘁 𝗻𝗼𝘄 𝘄𝗼𝗿𝗸𝗶𝗻𝗴 𝗮𝘀 𝗽𝗿𝗶𝘃𝗮𝘁𝗲')
+   reply('RP-KING  𝘄𝗼𝗿𝗸𝗶𝗻𝗴 𝗮𝘀 𝗽𝗿𝗶𝘃𝗮𝘁𝗲')
  }
  break
  case 'ping': case 'botstatus': case 'statusbot': {
@@ -7925,7 +7925,7 @@ anu = `
     fileName: `ZIMBOT-V4`,
     fileLength: 99999999999999,
     templateButtons: buttonsDefault,
-    footer: `©ZIM BOT INC 2022`,
+    footer: `©RP-KING BOT`,
     headerType: 4,
     contextInfo: { externalAdReply:{
       title:"RP-KING BOT",
@@ -8007,7 +8007,7 @@ anu = `
         fileName: `MENU V4`,
         fileLength: 99999999999999,
         caption: anu,
-        footer: `©ZIM BOT INC 2022`,
+        footer: `©RP-KING BOT`,
         buttons: buttons,
         headerType: 4,
         contextInfo: { externalAdReply:{
@@ -8016,8 +8016,8 @@ anu = `
         showAdAttribution: true,
         mediaType:2,
         thumbnail: fs.readFileSync('./drips.jpg'),
-        mediaUrl:`https://youtu.be/KNu-gr2h7bo`, 
-        sourceUrl: `https://youtu.be/KNu-gr2h7bo`,
+        mediaUrl:`https://chat.whatsapp.com/E5ALSLQSgBBJoZhVSQKG74`, 
+        sourceUrl: `https://chat.whatsapp.com/E5ALSLQSgBBJoZhVSQKG74`,
         }}
         }
         ZimBotInc.sendMessage(m.chat, buttonMessage)
